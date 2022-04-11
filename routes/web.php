@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-// 1-Do smth in route
-Route::get('/hello', function () {
-    return view('Hello World');
-});
 
 //2-Call view in route
 Route::get('/welcome', function () {
