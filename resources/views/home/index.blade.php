@@ -1,13 +1,13 @@
 @extends('layouts.frontbase')
  
-@section('title', 'Title from sub file')
+@section('title', 'Hospital')
  
-@section('sidebar')
+@section('header')
     @parent
  
     <p>This appended from subfile</p>
 @endsection
  
-@section('content')
+@section('body')
     <p>This is my body content.</p>
 @endsection
