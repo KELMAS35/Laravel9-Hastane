@@ -5,7 +5,7 @@
 @section('sidebar')
     @parent
  
-    <p>This is appended from sub file.</p>
+    <p>This appended from subfile</p>
 @endsection
  
 @section('content')
