@@ -142,7 +142,7 @@
 				
 				<div class="copyright">
 					<p><strong>Welly Hospital Admin Dashboard</strong> © 2020 All Rights Reserved</p>
-					<p>Made with ♥ by KadirElmas</p>
+					<p>Made with ♥ by DexignZone</p>
 				</div>
 			</div>
         </div>

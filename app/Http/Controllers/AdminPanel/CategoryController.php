@@ -15,7 +15,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        echo "CategoryList";
+        return view('admin.category.index');
     }
 
     /**
@@ -25,7 +25,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        echo "CategoryCreate";
+        return view('admin.category.create');
     }
 
     /**
