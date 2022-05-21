@@ -148,11 +148,11 @@
 														</div>
 													</div>
 													<ul class="users pl-3 py-2">
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/1.png" alt=""></li>
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/2.png" alt=""></li>
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/3.png" alt=""></li>
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/4.png" alt=""></li>
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/5.png" alt=""></li>
+														<li><img src="images/users/1.png" alt=""></li>
+														<li><img src="images/users/2.png" alt=""></li>
+														<li><img src="images/users/3.png" alt=""></li>
+														<li><img src="images/users/4.png" alt=""></li>
+														<li><img src="images/users/5.png" alt=""></li>
 													</ul>
 												</div>
 												<div class="row align-items-center">
@@ -202,11 +202,11 @@
 														</div>
 													</div>
 													<ul class="users pl-3 py-2">
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/2.png" alt=""></li>
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/4.png" alt=""></li>
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/1.png" alt=""></li>
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/4.png" alt=""></li>
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/3.png" alt=""></li>
+														<li><img src="images/users/2.png" alt=""></li>
+														<li><img src="images/users/4.png" alt=""></li>
+														<li><img src="images/users/1.png" alt=""></li>
+														<li><img src="images/users/4.png" alt=""></li>
+														<li><img src="images/users/3.png" alt=""></li>
 													</ul>
 												</div>
 												<div class="row align-items-center">
@@ -256,11 +256,11 @@
 														</div>
 													</div>
 													<ul class="users pl-3 py-2">
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/2.png" alt=""></li>
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/4.png" alt=""></li>
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/1.png" alt=""></li>
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/4.png" alt=""></li>
-														<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/3.png" alt=""></li>
+														<li><img src="images/users/2.png" alt=""></li>
+														<li><img src="images/users/4.png" alt=""></li>
+														<li><img src="images/users/1.png" alt=""></li>
+														<li><img src="images/users/4.png" alt=""></li>
+														<li><img src="images/users/3.png" alt=""></li>
 													</ul>
 												</div>
 												<div class="row align-items-center">
@@ -367,11 +367,11 @@
 									</div>
 									<div class="card-body pb-0">
 										<ul class="users-sm mb-3">
-											<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/6.png" alt=""></li>
-											<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/7.png" alt=""></li>
-											<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/8.png" alt=""></li>
-											<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/9.png" alt=""></li>
-											<li><img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/10.png" alt=""></li>
+											<li><img src="images/users/6.png" alt=""></li>
+											<li><img src="images/users/7.png" alt=""></li>
+											<li><img src="images/users/8.png" alt=""></li>
+											<li><img src="images/users/9.png" alt=""></li>
+											<li><img src="images/users/10.png" alt=""></li>
 										</ul>
 										<div class="d-flex align-items-center">
 											<svg class="mr-3" width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -396,7 +396,7 @@
 										<div class="d-sm-flex pb-sm-4 pb-3 border-bottom mb-sm-4 mb-3 align-items-center">
 											<div class="d-flex align-items-center mr-auto pr-2">
 												<span class="num mr-sm-4 mr-3">#1</span>
-												<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/1.jpg" class="img-1 mr-sm-4 mr-3" alt="">
+												<img src="images/users/1.jpg" class="img-1 mr-sm-4 mr-3" alt="">
 												<div>
 													<h4 class="mb-sm-2 mb-1"><a href="doctor.html" class="text-black">Dr. Samantha Queque</a></h4>
 													<span class="fs-14 text-primary font-w600">Gynecologist</span>
@@ -416,7 +416,7 @@
 										<div class="d-sm-flex pb-sm-4 pb-3 border-bottom mb-sm-4 mb-3 align-items-center">
 											<div class="d-flex align-items-center mr-auto pr-2">
 												<span class="num mr-sm-4 mr-3">#2</span>
-												<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/2.jpg" class="img-1 mr-sm-4 mr-3" alt="">
+												<img src="images/users/2.jpg" class="img-1 mr-sm-4 mr-3" alt="">
 												<div>
 													<h4 class="mb-sm-2 mb-1"><a href="doctor.html" class="text-black">Dr. Samuel Jr.</a></h4>
 													<span class="fs-14 text-primary font-w600">Gynecologist</span>
@@ -436,7 +436,7 @@
 										<div class="d-sm-flex pb-sm-4 pb-3 border-bottom mb-sm-4 mb-3 align-items-center">
 											<div class="d-flex align-items-center mr-auto pr-2">
 												<span class="num mr-sm-4 mr-3">#3</span>
-												<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/3.jpg" class="img-1 mr-sm-4 mr-3" alt="">
+												<img src="images/users/3.jpg" class="img-1 mr-sm-4 mr-3" alt="">
 												<div>
 													<h4 class="mb-sm-2 mb-1"><a href="doctor.html" class="text-black">Dr. Jennifer Ruby</a></h4>
 													<span class="fs-14 text-primary font-w600">Gynecologist</span>
@@ -456,7 +456,7 @@
 										<div class="d-sm-flex pb-sm-4 pb-3 border-bottom mb-sm-4 mb-3 align-items-center">
 											<div class="d-flex align-items-center mr-auto pr-2">
 												<span class="num mr-sm-4 mr-3">#4</span>
-												<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/4.jpg" class="img-1 mr-sm-4 mr-3" alt="">
+												<img src="images/users/4.jpg" class="img-1 mr-sm-4 mr-3" alt="">
 												<div>
 													<h4 class="mb-sm-2 mb-1"><a href="doctor.html" class="text-black">Dr. Abdul Aziz Lazis</a></h4>
 													<span class="fs-14 text-primary font-w600">Gynecologist</span>
@@ -476,7 +476,7 @@
 										<div class="d-sm-flex pb-sm-4 pb-3 border-bottom mb-sm-4 mb-3 align-items-center">
 											<div class="d-flex align-items-center mr-auto pr-2">
 												<span class="num mr-sm-4 mr-3">#5</span>
-												<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/5.jpg" class="img-1 mr-sm-4 mr-3" alt="">
+												<img src="images/users/5.jpg" class="img-1 mr-sm-4 mr-3" alt="">
 												<div>
 													<h4 class="mb-sm-2 mb-1"><a href="doctor.html" class="text-black">Dr. Alex Siauw</a></h4>
 													<span class="fs-14 text-primary font-w600">Gynecologist</span>
@@ -496,7 +496,7 @@
 										<div class="d-sm-flex pb-0 align-items-center">
 											<div class="d-flex align-items-center mr-auto pr-2">
 												<span class="num mr-sm-4 mr-3">#6</span>
-												<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/1.jpg" class="img-1 mr-sm-4 mr-3" alt="">
+												<img src="images/users/1.jpg" class="img-1 mr-sm-4 mr-3" alt="">
 												<div>
 													<h4 class="mb-sm-2 mb-1"><a href="doctor.html" class="text-black">Dr. Abdul Aziz Lazis</a></h4>
 													<span class="fs-14 text-primary font-w600">Gynecologist</span>
@@ -656,7 +656,7 @@
 													<tr>
 														<td>
 															<div class="d-flex">
-																<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/6.jpg" alt="" class="img-2 mr-3">
+																<img src="images/users/6.jpg" alt="" class="img-2 mr-3">
 																<div>
 																	<h6 class="fs-16 mb-1"><a href="patient.html" class="text-black">Roby Romeo</a></h6>
 																	<span class="fs-14">41 Years Old</span>
@@ -680,7 +680,7 @@
 													<tr>
 														<td>
 															<div class="d-flex">
-																<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/7.jpg" alt="" class="img-2 mr-3">
+																<img src="images/users/7.jpg" alt="" class="img-2 mr-3">
 																<div>
 																	<h6 class="fs-16 mb-1"><a href="patient.html" class="text-black">Angela Nurhayati</a></h6>
 																	<span class="fs-14">21 Years Old</span>
@@ -704,7 +704,7 @@
 													<tr>
 														<td>
 															<div class="d-flex">
-																<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/8.jpg" alt="" class="img-2 mr-3">
+																<img src="images/users/8.jpg" alt="" class="img-2 mr-3">
 																<div>
 																	<h6 class="fs-16 mb-1"><a href="patient.html" class="text-black">James Robinson</a></h6>
 																	<span class="fs-14">41 Years Old</span>
@@ -728,7 +728,7 @@
 													<tr>
 														<td>
 															<div class="d-flex">
-																<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/9.jpg" alt="" class="img-2 mr-3">
+																<img src="images/users/9.jpg" alt="" class="img-2 mr-3">
 																<div>
 																	<h6 class="fs-16 mb-1"><a href="patient.html" class="text-black">Thomas Jaja</a></h6>
 																	<span class="fs-14">7 Years Old</span>
@@ -752,7 +752,7 @@
 													<tr>
 														<td>
 															<div class="d-flex">
-																<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/10.jpg" alt="" class="img-2 mr-3">
+																<img src="images/users/10.jpg" alt="" class="img-2 mr-3">
 																<div>
 																	<h6 class="fs-16 mb-1"><a href="patient.html" class="text-black">Cindy Brownleee</a></h6>
 																	<span class="fs-14">71 Years Old</span>
@@ -776,7 +776,7 @@
 													<tr>
 														<td>
 															<div class="d-flex">
-																<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/11.jpg" alt="" class="img-2 mr-3">
+																<img src="images/users/11.jpg" alt="" class="img-2 mr-3">
 																<div>
 																	<h6 class="fs-16 mb-1"><a href="patient.html" class="text-black">Oconner Jr.</a></h6>
 																	<span class="fs-14">17 Years Old</span>
@@ -800,7 +800,7 @@
 													<tr>
 														<td>
 															<div class="d-flex">
-																<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/7.jpg" alt="" class="img-2 mr-3">
+																<img src="images/users/7.jpg" alt="" class="img-2 mr-3">
 																<div>
 																	<h6 class="fs-16 mb-1"><a href="patient.html" class="text-black">Angela Nurhayati</a></h6>
 																	<span class="fs-14">21 Years Old</span>
@@ -824,7 +824,7 @@
 													<tr>
 														<td>
 															<div class="d-flex">
-																<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/8.jpg" alt="" class="img-2 mr-3">
+																<img src="images/users/8.jpg" alt="" class="img-2 mr-3">
 																<div>
 																	<h6 class="fs-16 mb-1"><a href="patient.html" class="text-black">James Robinson</a></h6>
 																	<span class="fs-14">41 Years Old</span>
@@ -848,7 +848,7 @@
 													<tr>
 														<td>
 															<div class="d-flex">
-																<img src="{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/{{asset('assets')}}/admin/images/users/9.jpg" alt="" class="img-2 mr-3">
+																<img src="images/users/9.jpg" alt="" class="img-2 mr-3">
 																<div>
 																	<h6 class="fs-16 mb-1"><a href="patient.html" class="text-black">Thomas Jaja</a></h6>
 																	<span class="fs-14">7 Years Old</span>
@@ -883,7 +883,4 @@
 				</div>
             </div>
         </div>
-
-
-
 @endsection

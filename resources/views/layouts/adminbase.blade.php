@@ -25,7 +25,7 @@
 @show 
 
 @yield('content')
-<@include("admin.footer")
+@include("admin.footer")
 @yield('foot')   
 </body>
 </html>
