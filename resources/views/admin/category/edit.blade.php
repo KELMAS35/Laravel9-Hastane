@@ -1,17 +1,17 @@
 @extends('layouts.adminbase')
 
-@section('title', 'Category Create')
+@section('title', 'Edit Category :'.$data->title)
 
 @section('content')
 <div class="content-body">
             <div class="container-fluid">
                 <div class="page-titles">
-					<h4>Add Category</h4>
+					<h4>Edit Category : {{$data->title}}</h4>
                 </div>
                 <!-- row -->
                 <div class="row">
                 <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="/admin">Home</a></li>
+<li class="breadcrumb-item"><a href="/admin">Home</a></li>
 <li class="breadcrumb-item"><a href="/admin/category">Category List</a></li> </ol>
                 <div class="col-xl-6 col-lg-12">
                     
@@ -19,7 +19,7 @@
                             <div class="card-header">
                                 <h4 class="card-title">Category Elements</h4>
                             </div>
-                            <form role="form" action="/admin/category/store" method="post">
+                            <form role="form" action="/admin/category/update/{{$data->id}}" method="post">
                             @csrf
                             <div class="card-body">
                                 <div class="basic-form">
@@ -27,19 +27,19 @@
                                     <div class="form-group row">
                                             <label class="col-sm-3 col-form-label">Title</label>
                                             <div class="col-sm-9">
-                                                <input type="text" class="form-control" name="title" placeholder="Title">
+                                                <input type="text" class="form-control" name="title" value="{{$data->title}}">
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label class="col-sm-3 col-form-label">Keywords</label>
                                             <div class="col-sm-9">
-                                                <input type="text" class="form-control" name="keywords" placeholder="Keywords">
+                                                <input type="text" class="form-control" name="keywords" value="{{$data->keywords}}">
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label class="col-sm-3 col-form-label">Description</label>
                                             <div class="col-sm-9">
-                                                <input type="text" class="form-control" name="description" placeholder="Description">
+                                                <input type="text" class="form-control" name="description" value="{{$data->description}}">
                                             </div>
                                         </div>
                                         <div class="input-group mb-3">
@@ -55,13 +55,14 @@
                     <div class="form-group">
                                             <label>Status</label>
                                             <select class="form-control" name="status" >
+                                                <option selected>{{$data->status}}</option>
                                                 <option>True</option>
                                                 <option>False</option>
                                             </select>
                                         </div>
 
                     <div class="card-footer">
-                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="submit" class="btn btn-primary">Update Data</button>
                     </div>
                                 </div>
                             </div>

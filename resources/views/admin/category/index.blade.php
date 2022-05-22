@@ -13,7 +13,6 @@
                 <div class="col-lg-12">
                 <ol class="breadcrumb float-sm-right">
 <li class="breadcrumb-item"><a href="/admin">Home</a></li>
-<li class="breadcrumb-item active">Category List</li> </ol>
                         <div class="card">
                             <div class="card-header">
                         
@@ -43,9 +42,9 @@
                                                 <td>{{$rs->description}}</td>
                                                 <td>{{$rs->image}}</td>
                                                 <td>{{$rs->status}}</td>
-                                                <td><a href="/admin/category/edit{{$rs->id}}" class="btn btn-primary mr-2" id="js-programmatic-enable">Edit</a></td>
-                                                <td><a href="/admin/category/edit{{$rs->id}}"class="btn btn-danger mr-2" id="js-programmatic-enable">Delete</a></td>
-                                                <td><a href="/admin/category/edit{{$rs->id}}"class="btn btn-success mr-2" id="js-programmatic-enable">Show</a></td>
+                                                <td><a href="/admin/category/edit/{{$rs->id}}" class="btn btn-primary mr-2" id="js-programmatic-enable">Edit</a></td>
+                                                <td><a href="/admin/category/delete/{{$rs->id}}"class="btn btn-danger mr-2" id="js-programmatic-enable">Delete</a></td>
+                                                <td><a href="/admin/category/show/{{$rs->id}}"class="btn btn-success mr-2" id="js-programmatic-enable">Show</a></td>
                                                 
                                             </tr>
                                             
