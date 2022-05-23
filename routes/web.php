@@ -43,21 +43,21 @@ Route::get('/',[AdminHomeController::class,'index'])->name('index');
 
 //ADMIN CATEGORY ROUTES//
 
-Route::prefix('category')->name('category.')->group(function () {
+Route::prefix('category')->name('category.')->controller(AdminCategoryController::class)->group(function () {
 
-Route::get('/category',[AdminCategoryController::class,'index'])->name('index');
+Route::get('/c','index')->name('index');
 
-Route::get('/create',[AdminCategoryController::class,'create'])->name('create');
+Route::get('/create','create')->name('create');
 
-Route::post('/store',[AdminCategoryController::class,'store'])->name('store');
+Route::post('/store','store')->name('store');
 
-Route::get('/edit/{id}',[AdminCategoryController::class,'edit'])->name('edit');
+Route::get('/edit/{id}','edit')->name('edit');
 
-Route::post('/update/{id}',[AdminCategoryController::class,'update'])->name('update');
+Route::post('/update/{id}','update')->name('update');
 
-Route::get('/destroy/{id}',[AdminCategoryController::class,'destroy'])->name('destroy');
+Route::get('/destroy/{id}','destroy')->name('destroy');
 
-Route::get('/show/{id}',[AdminCategoryController::class,'show'])->name('show');
+Route::get('/show/{id}','show')->name('show');
 });
 
 });

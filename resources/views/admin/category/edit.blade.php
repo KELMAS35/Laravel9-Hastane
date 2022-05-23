@@ -11,15 +11,15 @@
                 <!-- row -->
                 <div class="row">
                 <ol class="breadcrumb float-sm-right">
-<li class="breadcrumb-item"><a href="/admin">Home</a></li>
-<li class="breadcrumb-item"><a href="/admin/category">Category List</a></li> </ol>
+<li class="breadcrumb-item"><a href="{{route('admin.index',['id'=>$data->id])}}">Home</a></li>
+<li class="breadcrumb-item"><a href="{{route('admin.category.index',['id'=>$data->id])}}">Category List</a></li> </ol>
                 <div class="col-xl-6 col-lg-12">
                     
                         <div class="card">
                             <div class="card-header">
                                 <h4 class="card-title">Category Elements</h4>
                             </div>
-                            <form role="form" action="/admin/category/update/{{$data->id}}" method="post">
+                            <form role="form" action="{{route('admin.category.update',['id'=>$data->id])}}" method="post">
                             @csrf
                             <div class="card-body">
                                 <div class="basic-form">

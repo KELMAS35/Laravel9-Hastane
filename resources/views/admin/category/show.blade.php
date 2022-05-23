@@ -11,12 +11,12 @@
                 <!-- row -->
                 <div class="row">
                 <ol class="breadcrumb float-sm-right">
-<li class="breadcrumb-item"><a href="/admin">Home</a></li>
-<li class="breadcrumb-item"><a href="/admin/category">Category List</a></li> </ol>
+<li class="breadcrumb-item"><a href="route('admin.index')">Home</a></li>
+<li class="breadcrumb-item"><a href="{{route('admin.category.index')}}">Category List</a></li> </ol>
                 <div class="col-xl-6 col-lg-12">
                
-                <td><a href="/admin/category/edit/" class="btn btn-primary mr-2" id="js-programmatic-enable">Edit</a></td>
-                                                <td><a href="/admin/category/destroy/" onclick="return confirm('Deleting ! Are you sure?')"
+                <td><a href="{{route('admin.category.edit',['id'=>$data->id])}}" class="btn btn-primary mr-2" id="js-programmatic-enable">Edit</a></td>
+                                                <td><a href="{{route('admin.category.destroy',['id'=>$data->id])}}" onclick="return confirm('It will delete! Do you want continue?')"
                                                 class="btn btn-danger mr-2" id="js-programmatic-enable">Delete</a></td>
                                 
             </div>

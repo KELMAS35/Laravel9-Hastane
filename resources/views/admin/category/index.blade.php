@@ -12,7 +12,11 @@
             
                 <div class="col-lg-12">
                 <ol class="breadcrumb float-sm-right">
-<li class="breadcrumb-item"><a href="/admin">Home</a></li>
+                    
+<li class="breadcrumb-item"><a href="{{route('admin.index')}}" class="btn btn-block btn-danger btn-lg" 
+					style="width:200px" >Home</a></li>
+<li class="breadcrumb-item"><a href="{{route('admin.category.create')}}" class="btn btn-block btn-success btn-lg" 
+					style="width:200px" >Add Category</a></li>
                         <div class="card">
                             <div class="card-header">
                         
@@ -42,9 +46,9 @@
                                                 <td>{{$rs->description}}</td>
                                                 <td>{{$rs->image}}</td>
                                                 <td>{{$rs->status}}</td>
-                                                <td><a href="/admin/category/edit/{{$rs->id}}" class="btn btn-primary mr-2" id="js-programmatic-enable">Edit</a></td>
-                                                <td><a href="/admin/category/delete/{{$rs->id}}"class="btn btn-danger mr-2" id="js-programmatic-enable">Delete</a></td>
-                                                <td><a href="/admin/category/show/{{$rs->id}}"class="btn btn-success mr-2" id="js-programmatic-enable">Show</a></td>
+                                                <td><a href="{{route('admin.category.edit',['id'=>$rs->id])}}" class="btn btn-primary mr-2" id="js-programmatic-enable">Edit</a></td>
+                                                <td><a href="{{route('admin.category.destroy',['id'=>$rs->id])}}"class="btn btn-danger mr-2" id="js-programmatic-enable">Delete</a></td>
+                                                <td><a href="{{route('admin.category.show',['id'=>$rs->id])}}"class="btn btn-success mr-2" id="js-programmatic-enable">Show</a></td>
                                                 
                                             </tr>
                                             

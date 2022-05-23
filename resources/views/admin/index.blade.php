@@ -18,8 +18,11 @@
 						<h2 class="text-black font-w600">Dashboard</h2>
 						<p class="mb-0">Hospital Admin Dashboard Template</p>
 					</div>
-					<a href="/admin/category/create" class="btn btn-block btn-success btn-lg" 
-					style="width:200px" >Add Category</a>
+					<ol class="breadcrumb float-sm-right">
+					<li class="breadcrumb-item"><a href="/admin/category/c" class="btn btn-block btn-success btn-lg" 
+					style="width:200px" >Category List</a></li>
+					<li class="breadcrumb-item"><a href="/admin/category/create" class="btn btn-block btn-success btn-lg" 
+					style="width:200px" >Add Category</a></li></ol>
 					
 				</div>
 			</div></div>

@@ -11,15 +11,15 @@
                 <!-- row -->
                 <div class="row">
                 <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="/admin">Home</a></li>
-<li class="breadcrumb-item"><a href="/admin/category">Category List</a></li> </ol>
+                <li class="breadcrumb-item"><a href="{{route('admin.index')}}">Home</a></li>
+<li class="breadcrumb-item"><a href="{{route('admin.category.index')}}">Category List</a></li> </ol>
                 <div class="col-xl-6 col-lg-12">
                     
                         <div class="card">
                             <div class="card-header">
                                 <h4 class="card-title">Category Elements</h4>
                             </div>
-                            <form role="form" action="/admin/category/store" method="post">
+                            <form role="form" action="{{route('admin.category.create')}}" method="post">
                             @csrf
                             <div class="card-body">
                                 <div class="basic-form">
