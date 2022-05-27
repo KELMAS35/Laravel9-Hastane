@@ -42,9 +42,13 @@ class CategoryController extends Controller
         $data->title = $request->title;
         $data->keywords = $request->keywords;
         $data->description = $request->description;
+        if($request->file('image')){
+            $data->image=$request->file('image')->store('images');
+        }
         $data->status = $request->status;
+
         $data->save();
-        return redirect('admin/category');
+        return redirect('admin/category/c');
     }
 
     /**
@@ -85,9 +89,12 @@ class CategoryController extends Controller
         $data->title = $request->title;
         $data->keywords = $request->keywords;
         $data->description = $request->description;
+        if($request->file('image')){
+            $data->image=$request->file('image')->store('images');
+        }
         $data->status = $request->status;
         $data->save();
-        return redirect('admin/category');
+        return redirect('admin/category/c');
     }
 
     /**

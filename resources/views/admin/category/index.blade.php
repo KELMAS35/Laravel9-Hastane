@@ -6,17 +6,19 @@
 <div class="content-body">
 
             <div class="container-fluid">
+            <ol class="breadcrumb float-sm-right">
+                    
+                    <li class="breadcrumb-item"><a href="{{route('admin.index')}}" class="btn btn-block btn-danger btn-lg" 
+                                        style="width:200px" >Home</a></li>
+                    <li class="breadcrumb-item"><a href="{{route('admin.category.create')}}" class="btn btn-block btn-success btn-lg" 
+                                        style="width:200px" >Add Category</a></li></ol>
+                </div>
                 <div class="page-titles">
 					<h4>Category List</h4>
                 </div>
-            
+
                 <div class="col-lg-12">
-                <ol class="breadcrumb float-sm-right">
-                    
-<li class="breadcrumb-item"><a href="{{route('admin.index')}}" class="btn btn-block btn-danger btn-lg" 
-					style="width:200px" >Home</a></li>
-<li class="breadcrumb-item"><a href="{{route('admin.category.create')}}" class="btn btn-block btn-success btn-lg" 
-					style="width:200px" >Add Category</a></li>
+
                         <div class="card">
                             <div class="card-header">
                         
@@ -44,7 +46,11 @@
                                                 <td>{{$rs->title}}</td>
                                                 <td>{{$rs->keywords}}</td>
                                                 <td>{{$rs->description}}</td>
-                                                <td>{{$rs->image}}</td>
+                                                <td>
+                                                    @if($rs->image)
+                                                    <img src="{{Storage::url($rs->image)}}" style="height: 40px">
+                                                    @endif
+                                                </td>
                                                 <td>{{$rs->status}}</td>
                                                 <td><a href="{{route('admin.category.edit',['id'=>$rs->id])}}" class="btn btn-primary mr-2" id="js-programmatic-enable">Edit</a></td>
                                                 <td><a href="{{route('admin.category.destroy',['id'=>$rs->id])}}"class="btn btn-danger mr-2" id="js-programmatic-enable">Delete</a></td>
@@ -61,4 +67,6 @@
                             </div>
                         </div>
                     </div>
+            </div>
+</div>
 @endsection
