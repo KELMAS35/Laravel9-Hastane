@@ -12,10 +12,22 @@
                 <div class="row">
                 <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="{{route('admin.index')}}">Home</a></li>
-<li class="breadcrumb-item"><a href="{{route('admin.category.index')}}">Category List</a></li> </ol>
+                <li class="breadcrumb-item"><a href="{{route('admin.category.index')}}">Category List</a></li> </ol>
                 <div class="col-xl-6 col-lg-12">
                     
                         <div class="card">
+
+                        <div class="form-group">
+                            <label>Parent Category</label>
+                            <select class="form-control select2" name="parent_id" style"...">
+                                <option value="0" selected="selected">Main Category</option>
+                                @foreach($data as $rs)
+                                    <option value="{{$rs->id}}">
+                                        {{\App\Http\Controllers\AdminPanel\CategoryController::getParentsTree($rs, $rs->title)}}
+                                    </option>
+                                @endforeach
+                            </select>
+                        </div>
                             <div class="card-header">
                                 <h4 class="card-title">Category Elements</h4>
                             </div>
@@ -27,19 +39,19 @@
                                     <div class="form-group row">
                                             <label class="col-sm-3 col-form-label">Title</label>
                                             <div class="col-sm-9">
-                                                <input type="text" class="form-control" name="title" placeholder="Title">
+                                                <input type="text" class="form-control" name="title" placeholder="Title" value="">
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label class="col-sm-3 col-form-label">Keywords</label>
                                             <div class="col-sm-9">
-                                                <input type="text" class="form-control" name="keywords" placeholder="Keywords">
+                                                <input type="text" class="form-control" name="keywords" placeholder="Keywords" value="">
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label class="col-sm-3 col-form-label">Description</label>
                                             <div class="col-sm-9">
-                                                <input type="text" class="form-control" name="description" placeholder="Description">
+                                                <input type="text" class="form-control" name="description" placeholder="Description" value="">
                                             </div>
                                         </div>
                                         <div class="form-group">
